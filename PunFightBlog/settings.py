@@ -57,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 ROOT_URLCONF = 'PunFightBlog.urls'
 
