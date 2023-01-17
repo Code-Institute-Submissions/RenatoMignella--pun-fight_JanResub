@@ -1,108 +1,105 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pun-Fight-Blog
 
-Welcome RenatoMignella,
+- JanKenPo is a Django Python blog with the objective of forment the Great art of Pun 
+- Users can read posts comment like and sign in 
+- the Blog cover various forms of Pun fight as fun facts about and top Pun for some categories (Hoo My Deer ! )  
+###
+- The live link can be found here - [Pun-Fight-Blog](https://pun-fight.herokuapp.com/) 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+***** I'm here 
 
-## Gitpod Reminders
+![Responsice Mockup](/assets/images/AmIResponsiveScrenshot.JPG)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## How to play 
 
-`python3 -m http.server`
+JanKenPo is a classic Rock Paper and Scissors game. 
+######
+The user can play against the computer by inputting the values on the terminal. 
+######
+The game will tell the player immediatley when win , lose or draw.
 
-A blue button should appear to click: _Make Public_,
+## Features
+####
+#### Existing Features
+<img alt="Welcome" src="/assets/images/WelcomeScreenshot.JPG" width="80%">
 
-Another blue button should appear to click: _Open Browser_.
+- Randon computer selection 
+  - Once the player choose computer will make a ramdom selection 
+   - The player will not be able to see that
+####
+- Example when the player win  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<img alt="Win" src="/assets/images/WinScreenshot.JPG" width="80%">
 
-A blue button should appear to click: _Make Public_,
+###
 
-Another blue button should appear to click: _Open Browser_.
+- Example when the player lose  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<img alt="Lose" src="/assets/images/LoseScreenshot.JPG" width="80%">
 
-To log into the Heroku toolbelt CLI:
+###
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Example when the player Draw 
+  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<img alt="Draw" src="/assets/images/DrawScreenshot.JPG" width="80%">
 
-------
+###
+- Play again 
+  - When the game is finished the user will be prompeted to press 'r' to play again or 'q' to exit the game.
+###
+  <img alt="Draw" src="/assets/images/PlayAgainSceenshot.JPG" width="90%">
 
-## Release History
+  ####
+  - Exit game 
+    - once the player press 'q' to exit it will be showed a banner and the game will finish.
+    ####
+      <img alt="Draw" src="/assets/images/quitScreenshot.JPG" width="90%">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+      ####
+- Input validation and error checking 
+  - if the player type invalid a input it will be validated
+  ###
+<img alt="validation" src="/assets/images/PlayAgainValidation.JPG" width="90%">
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+####
+<img alt="validation2" src="/assets/images/InputValidationScreenshot.JPG" width="90%">
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+I have tested the project doing the following
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- passed on [PEP8](http://pep8online.com/).
+- Tried invalid inputs 
+- Tested on Heroku and the Terminal.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  #### Bugs
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-  Solved Bugs
+   - Validation problem
+ 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  #### Remain Bugs
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- No remain Bugs that I'm aware
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ #### Validator Testing 
+ - [PEP8](http://pep8online.com/)
+   - Initially found few errors that where fixed only 2 Warnings left
+ #### Deployment 
+- When you create the app, you will need to add two buildpacks from the Settings tab. The ordering is as follows:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+   - heroku/python
+    - heroku/nodejs
+    - You must then create a Config Var called - PORT. Set this to 8000
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    
+  -  Connect your GitHub repository and deploy as normal.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  #### Credits
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+   - [W3Schools](https://www.w3schools.com/python/python_datetime.asp)
+   - [Code Institute](https://www.CodeInstitute.net)
+   - [Youtube](https://www.youtube.com/)
+   - [pyfiglet](https://pypi.org/project/pyfiglet/0.7/)
