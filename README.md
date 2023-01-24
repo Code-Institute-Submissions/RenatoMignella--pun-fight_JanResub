@@ -1,92 +1,73 @@
 # Pun-Fight-Blog
 
-- JanKenPo is a Django Python blog with the objective of forment the Great art of Pun 
+- Pun-Fight-Blog is a Django Python blog with the objective of forment the Great art of Pun 
 - Users can read posts comment like and sign in 
 - the Blog cover various forms of Pun fight as fun facts about and top Pun for some categories (Hoo My Deer ! )  
 ###
 - The live link can be found here - [Pun-Fight-Blog](https://pun-fight.herokuapp.com/) 
 
 
-***** I'm here 
 
-![Responsice Mockup](/assets/images/AmIResponsiveScrenshot.JPG)
+![Responsice Mockup](/media/images/BlogImage.JPG)
 
-## How to play 
+## Menu and navigation
 
-JanKenPo is a classic Rock Paper and Scissors game. 
+At the initial page you'll have "Home" "Register"and "Login"
 ######
-The user can play against the computer by inputting the values on the terminal. 
-######
-The game will tell the player immediatley when win , lose or draw.
+The user can access the post at the home page as preavious image once logged the user have the possibility of Like posts and make commnets.
 
-## Features
+<img alt="Win" src="media/images/LoggedUserCommentAndLikeImage.JPG" width="80%">
+
+
+#
+- Register
+
+The user will be able to register at the main page.
+
+<img alt="Win" src="media/images/BlogRegisterImage.JPG" width="80%">
+
+##
+<img alt="Win" src="media/images/RegisterPageImage.JPG" width="80%">
+
+#
+ Login
+
+The user will be able to login once registered 
+
+
+<img alt="Win" src="media/images/BlogLogImage.JPG" width="80%">
+
+##
+<img alt="Win" src="media/images/LogPageImage.JPG" width="80%">
+
+#
+
+## User Stories 
 ####
-#### Existing Features
-<img alt="Welcome" src="/assets/images/WelcomeScreenshot.JPG" width="80%">
 
-- Randon computer selection 
-  - Once the player choose computer will make a ramdom selection 
-   - The player will not be able to see that
-####
-- Example when the player win  
-
-<img alt="Win" src="/assets/images/WinScreenshot.JPG" width="80%">
-
-###
-
-- Example when the player lose  
-
-<img alt="Lose" src="/assets/images/LoseScreenshot.JPG" width="80%">
-
-###
-
-- Example when the player Draw 
-  
-
-<img alt="Draw" src="/assets/images/DrawScreenshot.JPG" width="80%">
-
-###
-- Play again 
-  - When the game is finished the user will be prompeted to press 'r' to play again or 'q' to exit the game.
-###
-  <img alt="Draw" src="/assets/images/PlayAgainSceenshot.JPG" width="90%">
-
-  ####
-  - Exit game 
-    - once the player press 'q' to exit it will be showed a banner and the game will finish.
-    ####
-      <img alt="Draw" src="/assets/images/quitScreenshot.JPG" width="90%">
-
-      ####
-- Input validation and error checking 
-  - if the player type invalid a input it will be validated
-  ###
-<img alt="validation" src="/assets/images/PlayAgainValidation.JPG" width="90%">
+<img alt="Welcome" src="media/images/UserStories.JPG" width="80%">
 
 ####
-<img alt="validation2" src="/assets/images/InputValidationScreenshot.JPG" width="90%">
 
 ### Testing
 
 I have tested the project doing the following
 
 - passed on [PEP8](http://pep8online.com/).
-- Tried invalid inputs 
 - Tested on Heroku and the Terminal.
 
   #### Bugs
 
--  Solved Bugs
-   - Validation problem
- 
-
+-
   #### Remain Bugs
 
-- No remain Bugs that I'm aware
+- 
 
  #### Validator Testing 
+
  - [PEP8](http://pep8online.com/)
    - Initially found few errors that where fixed only 2 Warnings left
+
  #### Deployment 
 - When you create the app, you will need to add two buildpacks from the Settings tab. The ordering is as follows:
 
@@ -99,7 +80,7 @@ I have tested the project doing the following
 
   #### Credits
 
-   - [W3Schools](https://www.w3schools.com/python/python_datetime.asp)
-   - [Code Institute](https://www.CodeInstitute.net)
+  
+   - [Code Institute](https://www.CodeInstitute.net) Based on I Think Therefore I Blog module.
    - [Youtube](https://www.youtube.com/)
-   - [pyfiglet](https://pypi.org/project/pyfiglet/0.7/)
+   
