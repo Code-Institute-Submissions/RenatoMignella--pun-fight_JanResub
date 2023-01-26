@@ -49,13 +49,6 @@ The user will be able to login once registered
 
 ####
 
-### Testing
-
-I have tested the project doing the following
-
-- 
-- Tested on Heroku and the Terminal.
-
 
  #### Deployment 
 
@@ -82,11 +75,11 @@ Command to add packages to requirements.txt, `pip3 freeze --local > requirements
 
 
     
-  -  Connect your GitHub repository and deploy as normal.
+ 
 
   #### Credits
 
   
-   - [Code Institute](https://www.CodeInstitute.net) Based on I Think Therefore I Blog module.
+   - [Code Institute](https://www.CodeInstitute.net) Based on "I Think Therefore I Blog module".
    - [Youtube](https://www.youtube.com/)
    
