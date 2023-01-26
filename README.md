@@ -83,5 +83,5 @@ Command to add packages to requirements.txt, `pip3 freeze --local > requirements
    - [Code Institute](https://www.CodeInstitute.net) Based on "I Think Therefore I Blog module".
    - [Youtube](https://www.youtube.com/) 
    - [Google](https://www.Google.com/) Images source.
-   - 
+   
    
